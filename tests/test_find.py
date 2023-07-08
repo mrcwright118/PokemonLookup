@@ -1,5 +1,5 @@
 import pytest
-from mrcwright118.PokemonLookup import find
+from PokemonLookup import find
 
 
 def test_get_name_positivie():
