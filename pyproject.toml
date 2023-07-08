@@ -16,3 +16,8 @@ build-backend = "setuptools.build_meta"
 
 [project.scripts]
 lookup_pokemon_name = "wrightc118.PokemonLookup.scripts.find_pokemon_name:start"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
