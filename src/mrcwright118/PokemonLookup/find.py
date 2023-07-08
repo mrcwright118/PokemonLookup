@@ -9,6 +9,7 @@ def name(id):
 
     name = response.json()['species']['name']
     print(name)
+    return name
 
 def __check_response(res):
     if res.status_code != 200:
