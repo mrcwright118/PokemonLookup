@@ -1,0 +1,18 @@
+[project]
+name="PokemonLookup"
+version="0.0.1"
+description = "Wrapper for PokeAPI"
+readme = {file = "README.md", content-type = "markdown"}
+requires-python = ">=3.9"
+license = { file = "LICENSE"}
+
+dependencies = [
+    "requests"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+lookup_pokemon_name = "wrightc118.PokemonLookup.scripts.find_pokemon_name:start"
