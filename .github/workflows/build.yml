@@ -22,7 +22,7 @@ jobs:
         python -m pip install .
     - name: Lint
       run: |
-        pylint PokemonLookup
+        pylint pokemon_lookup
     - name: Test
       run: |
         pytest --cov-report term --cov-report xml:coverage.xml --cov=pokemon_lookup  tests/
