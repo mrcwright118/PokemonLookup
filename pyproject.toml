@@ -1,5 +1,5 @@
 [project]
-name="PokemonLookup"
+name="pokemon_lookup"
 version="0.0.1"
 description = "Wrapper for PokeAPI"
 readme = {file = "README.md", content-type = "markdown"}
@@ -17,7 +17,8 @@ build-backend = "setuptools.build_meta"
 [project.scripts]
 lookup_pokemon_name = "wrightc118.PokemonLookup.scripts.find_pokemon_name:start"
 
-[tool.pytest.ini_options]
-addopts = [
-    "--import-mode=importlib",
-]
+# [tool.pytest.ini_options]
+# addopts = [
+#     "--import-mode=importlib",
+# ]
+

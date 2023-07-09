@@ -1,5 +1,5 @@
 import argparse
-from PokemonLookup import find
+from pokemon_lookup import find
 
 
 parser = argparse.ArgumentParser()
